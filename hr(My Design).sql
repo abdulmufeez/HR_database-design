@@ -2,6 +2,7 @@ DROP DATABASE IF EXISTS hr_system;
 CREATE DATABASE hr_system;
 USE hr_system;
 
+-- Creating tables for HR system
 CREATE TABLE regions (
       id INT PRIMARY KEY AUTO_INCREMENT,
       region_name VARCHAR(30) NOT NULL 
@@ -72,7 +73,7 @@ CREATE TABLE jobs_grade (
 
 
 
-
+-- Dumping data in created tables
 INSERT INTO regions (region_name) 
 VALUES
 ('Europe'),
